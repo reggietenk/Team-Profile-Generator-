@@ -1,5 +1,7 @@
+// node module
 const inquirer = require('inquirer')
-const fs = require('fs')
+
+
 
 // class modules for each team member
 const Employee = require('./lib/Employee')
@@ -16,7 +18,7 @@ const {writeFile, copyFile} = require('./src/generate-site')
 
 const teamData = [];
 
-
+// command line prompts 
 const promptQuestions = async () => {
 
 const promptAnswers = await inquirer
@@ -153,28 +155,8 @@ const promptAnswers = await inquirer
         
 
   };
-  
 
-//   async function addPromptQuestions () {
-//   await choices ()
-
-//   const addTeamMate = await inquirer
-//   .prompt([
-//     {
-//       type: 'list',
-//       name: 'addTeamate',
-//       message: 'Would you like to add a teammate?',
-//       choices: ['Add new teammate', 'Do not add teammate']
-//     }
-//   ])
-
-//   if (addTeamMate === 'Add new teammate'){
-//     return addPromptQuestions ()
-//   }
-//   return writeFile();
-// }
-      
-            
+                
 
 promptQuestions()
 .then(teamData => {
