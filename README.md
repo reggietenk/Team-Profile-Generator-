@@ -14,6 +14,9 @@
 
 ![screenshot](./assets/images/generator.png)
 
+To watch app demo please click here [https://loom.com/share/8d4821939c24449c9036698a015370fe]
+
+
 
 
 ## Contribution 

@@ -88,4 +88,4 @@ function generateTeam() {
     `
 }
 
-module.exports = {generateTeam}
+module.exports = generateTeam
