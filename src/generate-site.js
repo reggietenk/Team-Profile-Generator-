@@ -1,5 +1,8 @@
 const fs = require('fs')
 
+
+
+
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
       fs.writeFile('./dist/index.html', fileContent, err => {
@@ -33,5 +36,5 @@ const writeFile = fileContent => {
     });
   };
   
-  module.exports = { writeFile, copyFile };
+  module.exports = {writeFile, copyFile,};
   

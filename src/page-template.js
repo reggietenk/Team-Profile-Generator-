@@ -1,8 +1,11 @@
+const Employee = require("../lib/Employee")
+const Manager = require("../lib/Manager")
 
 
 
-module.exports = templateData => {
-const {manager, engineer, ... intern } = templateData
+
+function generateTeam() {
+    
 
     return `
     <html lang="en">
@@ -27,10 +30,21 @@ const {manager, engineer, ... intern } = templateData
 
     <div class="container" style="width: 18rem;">
         <div class="card-header">
-          Featured 
+          <p></p> 
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">${this.name}</li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+      </div>
+
+      <div class="container" style="width: 18rem;">
+        <div class="card-header">
+          Featured
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"></li>
           <li class="list-group-item">A second item</li>
           <li class="list-group-item">A third item</li>
         </ul>
@@ -41,18 +55,7 @@ const {manager, engineer, ... intern } = templateData
           Featured
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">${this.name}</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-      </div>
-
-      <div class="container" style="width: 18rem;">
-        <div class="card-header">
-          Featured
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">${this.name}</li>
+          <li class="list-group-item"></li>
           <li class="list-group-item">A second item</li>
           <li class="list-group-item">A third item</li>
         </ul>
@@ -85,3 +88,5 @@ const {manager, engineer, ... intern } = templateData
 </html>
     `
 }
+
+module.exports = generateTeam
