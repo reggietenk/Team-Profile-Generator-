@@ -8,7 +8,7 @@
 
 - Node.js is needed to run application Install npm using command lines (npm install)
 
-- Jest testing framework is instaled by running (npm jest install) in the command lines.
+- Jest testing framework is installed by running (npm jest install) in the command lines.
 
 ## Usage
 
