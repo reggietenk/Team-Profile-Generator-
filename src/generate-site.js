@@ -30,7 +30,7 @@ const writeFile = fileContent => {
   
         resolve({
           ok: true,
-          message: 'Stylesheet created!'
+          message: 'File created!'
         });
       });
     });

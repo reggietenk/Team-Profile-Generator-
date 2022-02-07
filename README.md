@@ -2,7 +2,7 @@
 
 ## Description
 
-- The team profile generator is a great resource for compiling data about a team of developers and displaing the content on a HTML webpage. This app was created with node.js, using the command lines you are then prompted with a series of questions. Based on the answers to the questions a HTML file is created to display the answers from the prompt. This application uses the jest testing framework to confirm all the written code is deployable with no bugs.
+- The team profile generator is a great resource for compiling data about a team of developers and displaying the content on a HTML webpage. This app was created with node.js, using the command lines you are then prompted with a series of questions. Based on the answers to the questions a HTML file is created to display the answers from the prompt. This application uses the jest testing framework to confirm that all the written code is deployable with no bugs.
 
 ## Installation
 
@@ -13,6 +13,8 @@
 ## Usage
 
 ![screenshot](./assets/images/generator.png)
+
+
 
 ## Contribution 
 
